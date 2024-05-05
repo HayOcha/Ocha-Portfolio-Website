@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #6C6C6C;
+    padding: 4px 8px;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.btn {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4CB5A9;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 100px;
+}
+
+.hero {
+    display: flex;
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.main-intro {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.main-intro H2 {
+    font-weight: 400;
+    color: #0A0D14;
+}
+
+.main-name {
+    display: flex;
+    align-items: center;
+}
+
+.main-name h2 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.main-name img {
+    width: 100px;
+}
+
+.account {
+    align-content: space-between;
+}
+
+.top {
+    text-align: right;
+
+}
+
+.top img {
+    margin: 0.5rem;
+}
+
+.down img {
+    margin: 0.5rem;
+}
+
+.ilustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skills-Section {
+    display: flex;
+    padding: 2rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    justify-content: space-between;
+}
+
+.Skills-Section h1 {
+    font-size: 40px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.desc {
+    padding-top: 32px;
+    padding-bottom: 56px;
+    align-items: flex-start;
+    display: flex;
+    width: 290px;
+    gap: 8px;
+}
+
+.card {
+    display: flex;
+    gap: 24px;
+}
+
+.card-ilustration {
+    display: inline;
+    width: 280px;
+    height: 280px;
+    background-color: #FFDD85;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.card-ilustration img {
+    padding: 16px;
+    padding-bottom: 24px;
+    width: 80px;
+}
+
+.card-ilustration h1 {
+    font-size: 36px;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+.card-ilustration p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 280px;
+}
+
+.card-UIDesign {
+    display: inline;
+    width: 280px;
+    height: 280px;
+    background-color: #8DE3D9;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.card-UIDesign img {
+    padding: 16px;
+    padding-bottom: 24px;
+    width: 80px;
+}
+
+.card-UIDesign h1 {
+    font-size: 36px;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+.card-UIDesign p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 280px;
+}
+
+.card-Frontend {
+    color: #FFFFFF;
+    display: inline;
+    width: 280px;
+    height: 280px;
+    background-color: #0078E6;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.card-Frontend img {
+    padding: 16px;
+    padding-bottom: 24px;
+    width: 80px;
+}
+
+.card-Frontend h1 {
+    font-size: 36px;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+.card-Frontend p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 280px;
+}
+
+.title {
+    width: 300px;
+    height: 32px;
+    padding: 32px 40px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4FFFA;
+    border-radius: 16px;
+    margin: auto;
+    transform: rotate(-8deg);
+}
+
+
+.title img {
+    width: 56px;
+}
+
+.title h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.P1 img {
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.P2 img {
+    padding-top: 32px;
+}
